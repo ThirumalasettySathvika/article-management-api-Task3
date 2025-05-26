@@ -1,12 +1,12 @@
-# 📝 Article Management API
+#  Article Management API
 
-## 📖 Introduction
+##  Introduction
 
 This project is a simple and effective backend REST API for managing articles. It allows users to perform CRUD (Create, Read, Update, Delete) operations. The API is built using **Node.js**, **Express.js**, and **MySQL**.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Node.js** – Server-side JavaScript runtime
 - **Express.js** – Web framework for Node.js
@@ -17,7 +17,7 @@ This project is a simple and effective backend REST API for managing articles. I
 
 ---
 
-## ✅ Project Implementation
+##  Project Implementation
 
 - Initialized Node.js project with `npm init`.
 - Installed required dependencies: `express`, `mysql2`, `cors`, and `dotenv`.
@@ -34,7 +34,7 @@ This project is a simple and effective backend REST API for managing articles. I
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint         | Description                        |
 |--------|------------------|------------------------------------|
@@ -46,7 +46,7 @@ This project is a simple and effective backend REST API for managing articles. I
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
 To set up the database, run the following SQL script:
 
