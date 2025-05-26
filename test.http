@@ -1,0 +1,29 @@
+### Create an article
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+  "title": "Article 1",
+  "description": "This is my first article.",
+  "author": "John",
+  "status": "draft",
+  "rating": 4.5
+}
+
+### Get all articles
+GET http://localhost:3000/articles
+
+### Get a specific article
+GET http://localhost:3000/articles/1
+
+### Update an article
+PUT http://localhost:3000/articles/1
+Content-Type: application/json
+
+{
+  "status": "published",
+  "rating": 4.9
+}
+
+### Delete an article
+DELETE http://localhost:3000/articles/1
